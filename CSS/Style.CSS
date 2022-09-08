@@ -1,0 +1,216 @@
+/*Global classes*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+Section{
+    padding: 100px 0px;
+}
+.container{
+    width: 100%;
+    margin:auto ;
+}
+.global-heading{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+/* Header part*/
+header{ 
+    width: 100%;
+    float: left;
+    background-image: url(../img/img-1.png);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+ 
+}
+nav{
+    width: 100%;
+    float: left;
+    clear: left;
+   color: #fff;
+   padding-bottom: 10px;
+
+}
+.logo-part{
+    width: 50%;
+    float: left;
+    clear: left;
+    height:40%;
+    padding-top:20px;
+   background-color:#303030;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    clear:right;
+    text-align: end;
+    height:40%;
+    background-color:#303030;
+    padding-bottom: 37px;
+
+}
+.menu-part li{
+display: inline-block;
+padding: 7px;
+border-radius: 5px;
+margin-top: 20px;
+margin-right: 20px;
+font-weight: 800;
+font-size: 10px;
+}
+.menu-part li:hover{
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.menu-part a{
+font-size: 17px;
+color: #fff;
+font-weight: 600%;
+text-transform: uppercase;
+}
+
+.writing-part{
+   width: 50%;
+   float: inline-start;
+   height: 10%;
+   padding-left:200px;
+   padding-right: 100px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.writing-part h2{
+    padding-top: 300px;
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-weight: 600;
+
+}
+.writing-part p{
+    padding-top: 40px;
+    font-size: 30px;
+   
+} 
+
+/*tour section*/
+#tour{
+    background-image: url(../img/design-4.png);
+    width: 100%;
+    float: left;
+     background-position:center;
+    background-size: cover;
+    position: relative;
+
+}
+.tour-writing-part{
+width: 100%;
+float: left;
+text-align: center;
+color: #fff;
+}
+.tour-writing-part h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.tour-writing-part p{
+font-size: 20px;
+padding-top: 10px;
+letter-spacing: 2px;
+}
+.tour-box-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px
+}
+.tour-box{
+float: left;
+clear: left;
+padding-left:150px;
+}
+.tour-box img{
+    padding: 20px;
+   
+}
+
+/*pricing section*/
+#pricing{
+    background-image: url(../img/design-3.png);
+    width: 100%;
+    float: left;
+     background-position:center;
+    background-size: cover;
+    position: relative;
+
+}
+.pricing-writing-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+.pricing-writing-part h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.pricing-writing-part p{
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+.pricing-box-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px
+}
+.pricing-box{
+    float: left;
+    clear: left;
+    padding-left:150px;
+}
+.pricing-box img{
+    padding: 20px;
+}
+
+/*dancing section*/
+#dance{
+    background-image: url(../img/design-5.png);
+    width:100%;
+    float: right;
+     background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.dance-box-part{
+    width:100%;
+    float: left;
+}
+.dance-box{
+width: 50%;
+height: 100%;
+}
+.dance-writing-part{
+    width: 100%;
+    float: left;
+    clear: left;
+    text-align:center;
+    color: #fff;
+   margin-left:300px;
+
+
+}
+.dance-writing-part h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.dance-writing-part p{
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
